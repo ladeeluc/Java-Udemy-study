@@ -8,6 +8,7 @@ public class Main {
 
         long lo = 50000L + (num + bNum + i) * 10;
         System.out.println(("this is lo value: ") + lo);
+        System.out.println(bNum);
 
     }
 
