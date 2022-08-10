@@ -23,11 +23,20 @@ public class Main {
         System.out.println("this is  Min double : " + myMinDoubleValue);
         System.out.println("this is Max double : " + myMaxDoubleValue);
 
-        int myIntValue = 5;
-        float myFloatValue = 5.25f;
-        double myDoubleValue = 7.25d;
+        int myIntValue = 5 / 3;
+        float myFloatValue = 5f / 3f;
+        double myDoubleValue = 5.00 / 3.00;
         System.out.println("this is my intValue: " + myIntValue);
         System.out.println("this is floatValue: " + myFloatValue);
         System.out.println("this is double: " + myDoubleValue);
     }
+    static{
+        double pound = 10d;
+        double kilo = 0.45359237d;
+
+        double v = pound / kilo;
+        double result= v;
+        System.out.println("this is result: " + result);
+    }
+
 }
